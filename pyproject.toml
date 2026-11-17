@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wifiguard"
+version = "0.1.0"
+description = "WiFi password security self-audit: capture the WPA/WPA2 handshake from your OWN network, test it against a wordlist, and get a plain-language strength verdict."
+readme = "README.md"
+license = { text = "GPL-3.0-or-later" }
+authors = [{ name = "Tahir Younas" }]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+wifiguard = "wifiguard.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

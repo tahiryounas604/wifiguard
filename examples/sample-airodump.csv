@@ -1,0 +1,6 @@
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+8C:42:6D:6A:2F:70, 2026-11-17 10:00:01, 2026-11-17 10:00:21, 6, 130, WPA2, CCMP, PSK, -38, 120, 45, 0.0.0.0, 8, HomeWiFi,
+00:11:22:33:44:55, 2026-11-17 10:00:02, 2026-11-17 10:00:21, 11, 54, WPA2, CCMP, PSK, -70, 98, 0, 0.0.0.0, 10, ,
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+11:22:33:44:55:66, 2026-11-17 10:00:05, 2026-11-17 10:00:20, -40, 25, 8C:42:6D:6A:2F:70, HomeWiFi
